@@ -10,8 +10,8 @@ print(nested_list[3][0])
 higher_order_nested_list = [[1,2,3, [4,5,6]]]
 print(higher_order_nested_list[0][3][2])
 
-
-
+even_numbers = [ x for x in range(1,101) if x % 2 == 0 ]
+print(even_numbers)
 # Travis Security ROBOT
 
 known_users = ["Kishan", "Raghav", "John Marchi", "Frank", "Ashwin", "Sravan"]
